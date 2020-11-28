@@ -1,0 +1,63 @@
+{
+"__comment": "Designed with BDcraft Cubik Virtuoso - http://BDcraft.net/cubik",
+"textures": {
+    "particle": "block/technology/redstone",
+    "line": "block/technology/redstone"
+},
+"elements": [ 
+{
+    "from": [ 4, 0, 4 ],
+    "to": [ 12, 4, 12 ],
+    "faces": {
+        "down":  { "uv": [ 8, 8, 16, 16 ], "texture": "#line" },
+        "up":    { "uv": [ 8, 0, 16, 8 ], "texture": "#line" },
+        "north": { "uv": [ 0, 12, 8, 16 ], "texture": "#line" },
+        "south": { "uv": [ 0, 12, 8, 16 ], "texture": "#line" },
+        "west":  { "uv": [ 0, 12, 8, 16 ], "texture": "#line" },
+        "east":  { "uv": [ 0, 12, 8, 16 ], "texture": "#line" }
+    }
+}
+],
+"display": {
+    "thirdperson_righthand": {
+        "rotation": [ 90, 0, 0 ],
+        "translation": [ 0, 3.21, 6.43 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "thirdperson_lefthand": {
+        "rotation": [ 90, 0, 0 ],
+        "translation": [ 0, 3.21, 6.43 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "head": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 14.36, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "ground": {
+        "rotation": [ 0, 0, 0 ],
+        "translation": [ 0, 3, 0 ],
+        "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "fixed": {
+        "rotation": [ 90, 0, 180 ],
+        "translation": [ 0, 0, -7 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand": {
+        "rotation": [ 0, -48, 0 ],
+        "translation": [ 0, 3.78, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_lefthand": {
+        "rotation": [ 0, -48, 0 ],
+        "translation": [ 0, 3.78, 0 ],
+        "scale": [ 1, 1, 1 ]
+    },
+    "gui": {
+        "rotation": [ 30, 45, 0 ],
+        "translation": [ 0, 3.59, 0 ],
+        "scale": [ 1, 1, 1 ]
+    }
+}
+}

@@ -1,0 +1,18 @@
+{
+	"__comment": "Designed with BDcraft Cubik Virtuoso - http://BDcraft.net/cubik",
+	"textures": {
+		"edge": "block/glass_pane_top",
+		"laser": "block/technology/laser"
+	},
+	"elements": [
+		{
+			"__comment": "Cube",
+			"from": [ 7, 7, 7 ],
+			"to": [ 9, 9, 9 ],
+			"faces": {
+				"down": { "uv": [ 2, 6, 4, 8 ], "texture": "#laser" },
+				"up": { "uv": [ 2, 6, 4, 8 ], "texture": "#laser" }
+			}
+		}
+	]
+}

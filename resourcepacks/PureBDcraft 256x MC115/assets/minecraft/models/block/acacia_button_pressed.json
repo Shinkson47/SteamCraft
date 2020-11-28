@@ -1,0 +1,20 @@
+{
+	"__comment": "Designed by the resident Inuit with BDcraft Cubik PRO 0.95 Beta - http://bdcraft.net",
+	"textures": {
+		"particle": "block/acacia_planks",
+		"texture": "block/_bdc/buttons"
+	},
+	"elements": [ 	 
+		{
+			"from": [ 5, 0, 6 ],
+			"to": [ 11, 1, 10 ],
+			"faces": {
+				"up": { "uv": [ 0, 0, 6, 4 ], "texture": "#texture", "rotation": 180 },
+				"north": { "uv": [ 16, 1, 10, 0 ], "texture": "#texture", "rotation": 180 },
+				"south": { "uv": [ 10, 1, 16, 2 ], "texture": "#texture", "rotation": 180 },
+				"west": { "uv": [ 6, 1, 10, 0 ], "texture": "#texture", "rotation": 180 },
+				"east": { "uv": [ 10, 1, 6, 2 ], "texture": "#texture", "rotation": 180 }
+			}
+		}
+	]
+}

@@ -1,0 +1,40 @@
+NETHER
+
+Credits:
+
+Nether1:
+Remix by Sphax "Echoes from a Dark Island"
+From
+	Album "E-world - The ultimate edition"
+	Title "Echoes"
+	by zero-project
+	Website: http://www.zero-project.gr
+
+Nether2:
+Remix by Sphax "The Great Spirit from a Dark Island"
+From
+	Album "The Great Spirit"
+	Title "The Great Spirit"
+	by zero-project
+	Website: http://www.zero-project.gr
+
+Nether3:
+Remix by Sphax "Dark Echoes"
+From
+	Various Public Sounds FX
+
+Nether4:
+Remix by Sphax "Distant Thoughts from Dark Echoes"
+From
+	Album "E-world - The ultimate edition"
+	Title "Distant Thoughts"
+	by zero-project
+	Website: http://www.zero-project.gr
+
+
+License:
+Attribution 3.0 Unported (CC BY 3.0)
+http://creativecommons.org/licenses/by/3.0/
+
+Note:
+BDcraft Musics Pack is a Collection of Musics from various Artists. Most of those musics are tweaked and/or remixed by Sphax.

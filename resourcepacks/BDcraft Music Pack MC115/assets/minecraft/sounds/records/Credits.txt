@@ -1,0 +1,83 @@
+RECORDS
+
+Credits:
+
+13:
+Remix by Sphax "Horror 40"
+From
+	Album "METAMORPHOSE"
+	Title "Horror"
+	by Sirius
+	Website: None
+And Sound FX by
+	klankbeeld (http://www.freesound.org/people/klankbeeld)
+
+Blocks:
+Album "Hip-Hop Instrumentals Vol. 2"
+Title "Big Bang"
+by Deff Syndicate
+Website: http://www.zero-project.gr
+
+Cat:
+Album "Fairytale"
+Title "Moon waltz"
+by zero-project
+Website: http://www.zero-project.gr
+
+Chirp:
+Album "Ambient symphony"
+Title "Intro"
+by zero-project
+Website: http://www.zero-project.gr
+
+Far:
+Album "Caedes"
+Title "Caedes"
+by Sebastian
+Website: http://soundcloud.com/sepgil
+
+Mall:
+Album "Electro Industry"
+Title "The Dance Of The Electrons"
+by SBUT
+Website: https://www.facebook.com/pages/SBUT-Muzik/184542058250812
+
+Mellohi:
+Album "Random Tests"
+Title "The Flying Guitar"
+by Christiaan Bakker
+Website: http://www.anicator.com
+
+Stal:
+Album "Folk & Acoustic"
+Title "Demain je change de vie"
+by Löhstana David
+Website: http://www.lohstana-david.com/
+
+Strad:
+Album "DREAM"
+Title "Fantasy 2"
+by Niphargus
+Website: None
+
+Wait:
+Album "AP Collection V1"
+Title "Dragons Breath"
+by GeoSuPhat
+Website: None
+
+Ward:
+Remix by Sphax "Dark Church"
+From
+	Album "RELIEF"
+	Title "Church"
+	by Mikel Hormaza
+	Website: None
+
+
+License:
+Attribution 3.0 Unported (CC BY 3.0)
+http://creativecommons.org/licenses/by/3.0/
+
+Note:
+BDcraft Musics Pack is a Collection of Musics from various Artists. Most of those musics are tweaked and/or remixed by Sphax.

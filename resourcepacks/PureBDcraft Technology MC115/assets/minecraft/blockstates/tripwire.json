@@ -1,0 +1,156 @@
+{
+	"multipart": [
+		{   "when": { "north": false, "east": false, "south": false, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_single" }
+		},
+		{   "when": { "north": false, "east": false, "south": false, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_single_powered" }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_middle" }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_middle_powered" }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_middle", "y": 90 }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_middle_powered", "y": 90 }
+		},
+		{   "when": { "OR": [
+				{ "north": true, "east": true, "south": true, "west": true, "powered": false },
+				{ "north": true, "east": true, "south": false, "west": false, "powered": false },
+				{ "north": false, "east": true, "south": true, "west": false, "powered": false },
+				{ "north": false, "east": false, "south": true, "west": true, "powered": false },
+				{ "north": true, "east": false, "south": false, "west": true, "powered": false },
+				{ "north": true, "east": true, "south": true, "west": false, "powered": false },
+				{ "north": false, "east": true, "south": true, "west": true, "powered": false },
+				{ "north": true, "east": false, "south": true, "west": true, "powered": false },
+				{ "north": true, "east": true, "south": false, "west": true, "powered": false }
+			]},
+			"apply": { "model": "block/tripwire_middle_alt" }
+		},
+		{   "when": { "OR": [
+				{ "north": true, "east": true, "south": true, "west": true, "powered": true },
+				{ "north": true, "east": true, "south": false, "west": false, "powered": true },
+				{ "north": false, "east": true, "south": true, "west": false, "powered": true },
+				{ "north": false, "east": false, "south": true, "west": true, "powered": true },
+				{ "north": true, "east": false, "south": false, "west": true, "powered": true },
+				{ "north": true, "east": true, "south": true, "west": false, "powered": true },
+				{ "north": false, "east": true, "south": true, "west": true, "powered": true },
+				{ "north": true, "east": false, "south": true, "west": true, "powered": true },
+				{ "north": true, "east": true, "south": false, "west": true, "powered": true }
+			]},
+			"apply": { "model": "block/tripwire_middle_alt_powered" }
+		},
+		{   "when": { "north": true, "powered": false },
+			"apply": { "model": "block/tripwire_side" }
+		},
+		{   "when": { "north": true, "powered": true },
+			"apply": { "model": "block/tripwire_side_powered" }
+		},
+		{   "when": { "east": true, "powered": false },
+			"apply": { "model": "block/tripwire_side", "y": 90 }
+		},
+		{   "when": { "east": true, "powered": true },
+			"apply": { "model": "block/tripwire_side_powered", "y": 90 }
+		},
+		{   "when": { "south": true, "powered": false },
+			"apply": { "model": "block/tripwire_side_alt" }
+		},
+		{   "when": { "south": true, "powered": true },
+			"apply": { "model": "block/tripwire_side_alt_powered" }
+		},
+		{   "when": { "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_side_alt", "y": 90 }
+		},
+		{   "when": { "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_side_alt_powered", "y": 90 }
+		},
+		{   "when": { "north": false, "east": true, "south": true, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside" }
+		},
+		{   "when": { "north": false, "east": true, "south": true, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_powered" }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside", "y": 90 }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_powered", "y": 90 }
+		},
+		{   "when": { "north": true, "east": true, "south": false, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside", "y": 180 }
+		},
+		{   "when": { "north": true, "east": true, "south": false, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_powered", "y": 180 }
+		},
+		{   "when": { "north": true, "east": true, "south": true, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_noside", "y": 270 }
+		},
+		{   "when": { "north": true, "east": true, "south": true, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_noside_powered", "y": 270 }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt" }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt_powered" }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt", "y": 90 }
+		},
+		{   "when": { "north": true, "east": false, "south": true, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt_powered", "y": 90 }
+		},
+		{   "when": { "north": true, "east": false, "south": false, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt2", "y": 90 }
+		},
+		{   "when": { "north": true, "east": false, "south": false, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt2_powered", "y": 90 }
+		},
+		{   "when": { "north": true, "east": true, "south": false, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt2", "y": 180 }
+		},
+		{   "when": { "north": true, "east": true, "south": false, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt2_powered", "y": 180 }
+		},
+		{   "when": { "north": false, "east": true, "south": true, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt2", "y": 270 }
+		},
+		{   "when": { "north": false, "east": true, "south": true, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt2_powered", "y": 270 }
+		},
+		{   "when": { "north": false, "east": false, "south": true, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_noside_alt2" }
+		},
+		{   "when": { "north": false, "east": false, "south": true, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_noside_alt2_powered" }
+		},
+		{   "when": { "north": true, "east": false, "south": false, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_end" }
+		},
+		{   "when": { "north": true, "east": false, "south": false, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_end_powered" }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_end", "y": 90 }
+		},
+		{   "when": { "north": false, "east": true, "south": false, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_end_powered", "y": 90 }
+		},
+		{   "when": { "north": false, "east": false, "south": true, "west": false, "powered": false },
+			"apply": { "model": "block/tripwire_end_alt" }
+		},
+		{   "when": { "north": false, "east": false, "south": true, "west": false, "powered": true },
+			"apply": { "model": "block/tripwire_end_alt_powered" }
+		},
+		{   "when": { "north": false, "east": false, "south": false, "west": true, "powered": false },
+			"apply": { "model": "block/tripwire_end_alt", "y": 90 }
+		},
+		{   "when": { "north": false, "east": false, "south": false, "west": true, "powered": true },
+			"apply": { "model": "block/tripwire_end_alt_powered", "y": 90 }
+		}			
+	]
+}

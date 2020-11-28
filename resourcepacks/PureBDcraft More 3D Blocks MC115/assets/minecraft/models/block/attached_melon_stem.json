@@ -1,0 +1,6 @@
+{
+    "parent": "block/attached_stem",
+    "textures": {
+        "stem": "block/3d/melon_stem"
+    }
+}

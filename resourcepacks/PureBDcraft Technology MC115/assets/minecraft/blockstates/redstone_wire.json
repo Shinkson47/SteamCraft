@@ -1,0 +1,106 @@
+{
+    "multipart": [
+        {   "when": { "OR": [
+                {"north": "none", "east": "none", "south": "none", "west": "none"}
+			]},
+			"apply": { "model": "block/redstone_dust_dot_0side" }
+		},
+        {   "when": { "OR": [
+                {"north": "side|up", "east": "side|up", "south": "side|up", "west": "side|up"}
+			]},
+			"apply": { "model": "block/redstone_dust_dot_4side" }
+		},
+		{	"when": { "OR": [
+                {"north": "side|up", "east": "side|up", "south": "none", "west": "none" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_2side" }
+		},
+		{	"when": { "OR": [
+                {"north": "none", "east": "side|up", "south": "side|up", "west": "none" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_2side", "y": 90 }
+		},
+		{	"when": { "OR": [
+                {"north": "none", "east": "none", "south": "side|up", "west": "side|up"  }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_2side", "y": 180 }
+		},
+		{	"when": { "OR": [
+				{"north": "side|up", "east": "none", "south": "none", "west": "side|up" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_2side", "y": 270 }
+		},
+		{	"when": { "OR": [
+                {"north": "side|up", "east": "side|up", "south": "side|up", "west": "none" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_3side" }
+		},
+		{	"when": { "OR": [
+                {"north": "none", "east": "side|up", "south": "side|up", "west": "side|up" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_3side", "y": 90 }
+		},
+		{	"when": { "OR": [
+                {"north": "side|up", "east": "none", "south": "side|up", "west": "side|up"  }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_3side", "y": 180 }
+		},
+		{	"when": { "OR": [
+				{"north": "side|up", "east": "side|up", "south": "none", "west": "side|up" }
+            ]},
+			"apply": { "model": "block/redstone_dust_dot_3side", "y": 270 }
+		},
+        {   "when": { "OR": [
+                { "north": "side|up" },
+                { "north": "none", "east": "none", "south": "side|up", "west": "none" }
+            ]},
+            "apply": { "model": "block/redstone_dust_side0" }
+        },
+        {   "when": { "OR": [
+                { "south": "side|up" },
+                { "north": "side|up", "east": "none", "south": "none", "west": "none" }
+            ]},
+            "apply": { "model": "block/redstone_dust_side_alt0" }
+        },
+        {   "when": { "OR": [
+                { "east": "side|up" },
+                { "north": "none", "east": "none", "south": "none", "west": "side|up" }
+            ]},
+            "apply": { "model": "block/redstone_dust_side_alt1", "y": 270 }
+        },
+        {   "when": { "OR": [
+                { "west": "side|up" },
+                { "north": "none", "east": "side|up", "south": "none", "west": "none" }
+            ]},
+            "apply": { "model": "block/redstone_dust_side1", "y": 270 }
+        },
+        {   "when": { "north": "up" },
+             "apply": [
+            { "model": "block/redstone_dust_up" },
+            { "model": "block/redstone_dust_up2" },
+            { "model": "block/redstone_dust_up3" }
+        ]
+        },
+        {   "when": { "east": "up" },
+             "apply": [
+            { "model": "block/redstone_dust_up", "y": 90 },
+            { "model": "block/redstone_dust_up2", "y": 90 },
+            { "model": "block/redstone_dust_up3", "y": 90 }
+        ]
+        },
+        {   "when": { "south": "up" },
+             "apply": [
+            { "model": "block/redstone_dust_up", "y": 180 },
+            { "model": "block/redstone_dust_up2", "y": 180 },
+            { "model": "block/redstone_dust_up3", "y": 180 }
+        ]
+        },
+        {   "when": { "west": "up" },
+             "apply": [
+            { "model": "block/redstone_dust_up", "y": 270 },
+            { "model": "block/redstone_dust_up2", "y": 270 },
+            { "model": "block/redstone_dust_up3", "y": 270 }
+        ]
+        }
+    ]
+}

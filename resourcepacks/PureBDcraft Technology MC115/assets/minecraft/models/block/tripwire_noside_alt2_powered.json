@@ -1,0 +1,17 @@
+{
+	"__comment": "Designed with BDcraft Cubik Virtuoso - http://BDcraft.net/cubik",
+	"textures": {
+		"laser": "block/technology/laser"
+	},
+	"elements": [
+		{
+			"__comment": "Cube",
+			"from": [ 7, 7, 7 ],
+			"to": [ 9, 9, 9 ],
+			"faces": {
+				"north": { "uv": [ 6.5, 14, 8.5, 16 ], "texture": "#laser" },
+				"east": { "uv": [ 6.5, 14, 8.5, 16 ], "texture": "#laser" }
+			}
+		}
+	]
+}

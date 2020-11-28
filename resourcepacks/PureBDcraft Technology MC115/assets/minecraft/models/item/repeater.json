@@ -1,0 +1,81 @@
+{
+	"__comment": "Designed with BDcraft Cubik Virtuoso - http://BDcraft.net/cubik",
+	"textures": {
+		"particle": "block/technology/repeater",
+		"texture": "block/technology/repeater",
+		"texture2": "block/technology/redstone"
+	},
+	"elements": [
+		{
+			"__comment": "Cube",
+			"from": [ 6, 0, 4 ],
+			"to": [ 10, 4, 12 ],
+			"faces": {
+				"down": { "uv": [ 6, 8, 14, 12 ], "texture": "#texture2", "rotation": 270 },
+				"up": { "uv": [ 8, 8, 16, 12 ], "texture": "#texture", "rotation": 90 },
+				"north": { "uv": [ 4, 4, 8, 8 ], "texture": "#texture" },
+				"south": { "uv": [ 4, 4, 8, 8 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 12, 8, 16 ], "texture": "#texture2" },
+				"east": { "uv": [ 0, 12, 8, 16 ], "texture": "#texture2" }
+			}
+		},
+		{
+			"__comment": "Cube",
+			"from": [ 10, 0, 4 ],
+			"to": [ 14, 2, 8 ],
+			"faces": {
+				"down": { "uv": [ 6, 0, 10, 4 ], "texture": "#texture", "rotation": 270 },
+				"up": { "uv": [ 0, 2, 4, 6 ], "texture": "#texture" },
+				"north": { "uv": [ 0, 0, 4, 2 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 4, 2 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 4, 2 ], "texture": "#texture" },
+				"east": { "uv": [ 0, 0, 4, 2 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Cube",
+			"from": [ 11, 2, 5 ],
+			"to": [ 13, 3, 7 ],
+			"faces": {
+				"down": { "uv": [ 2, 6, 4, 8 ], "texture": "#texture" },
+				"up": { "uv": [ 2, 6, 4, 8 ], "texture": "#texture" },
+				"north": { "uv": [ 2, 6, 4, 7 ], "texture": "#texture" },
+				"south": { "uv": [ 2, 6, 4, 7 ], "texture": "#texture" },
+				"west": { "uv": [ 2, 6, 4, 7 ], "texture": "#texture" },
+				"east": { "uv": [ 2, 6, 4, 7 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+        "gui": {
+            "rotation": [ 30, 225, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 1, 1, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0],
+            "scale":[ 0.75, 0.75, 0.75 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 90, 270 ],
+            "translation": [ 0, 0, -7],
+            "scale":[ 1, 1, 1 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 45, 0 ],
+            "translation": [ 0, 3, 3],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 225, 0 ],
+            "translation": [ 0, 5, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        },
+        "firstperson_lefthand": {
+            "rotation": [ 0, 45, 0 ],
+            "translation": [ 0, 5, 0 ],
+            "scale": [ 0.75, 0.75, 0.75 ]
+        }
+    }
+}
