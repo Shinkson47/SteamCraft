@@ -737,6 +737,78 @@
       "installedTargets": []
     },
     {
+      "addonID": 331936,
+      "gameInstanceID": "a3ae2b12-583b-465b-8a93-3d3cba4e5731",
+      "installedFile": {
+        "id": 2983465,
+        "displayName": "citadel-1.1.11-1.15.2",
+        "fileName": "citadel-1.1.11.jar",
+        "fileDate": "2020-06-19T02:40:00.46Z",
+        "fileLength": 368597,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2983/465/citadel-1.1.11.jar",
+        "isAlternate": false,
+        "alternateFileId": 2983466,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3916217283,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3718183387,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2246101513,
+            "type": 0
+          },
+          {
+            "foldername": "citadel.png",
+            "fingerprint": 1603167710,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 3128477219,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "citadel-1.1.11.jar"
+      },
+      "dateInstalled": "2020-11-28T20:29:01.984794Z",
+      "dateUpdated": "2020-11-28T20:29:01.987573Z",
+      "dateLastUpdateAttempted": "2020-11-28T20:29:01.987573Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 245506,
       "gameInstanceID": "a3ae2b12-583b-465b-8a93-3d3cba4e5731",
       "installedFile": {
@@ -2406,6 +2478,90 @@
       "dateInstalled": "2020-11-28T19:02:26.212466Z",
       "dateUpdated": "2020-11-28T19:02:26.213883Z",
       "dateLastUpdateAttempted": "2020-11-28T19:02:26.213883Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 323596,
+      "gameInstanceID": "a3ae2b12-583b-465b-8a93-3d3cba4e5731",
+      "installedFile": {
+        "id": 2992655,
+        "displayName": "rats-5.3.2-1.15.2",
+        "fileName": "rats-5.3.2-1.15.2.jar",
+        "fileDate": "2020-06-30T01:27:53.5Z",
+        "fileLength": 5671166,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2992/655/rats-5.3.2-1.15.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 331936,
+            "type": 3,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3997739549,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 301367318,
+            "type": 0
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2418258594,
+            "type": 0
+          },
+          {
+            "foldername": "data",
+            "fingerprint": 2757364653,
+            "type": 0
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 4253522632,
+            "type": 0
+          },
+          {
+            "foldername": "rats_logo.png",
+            "fingerprint": 681856709,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 625021421,
+        "gameVersion": [
+          "1.15.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2020-01-22T00:00:00Z",
+        "gameId": 0,
+        "isServerPack": false,
+        "FileNameOnDisk": "rats-5.3.2-1.15.2.jar"
+      },
+      "dateInstalled": "2020-11-28T20:29:02.526519Z",
+      "dateUpdated": "2020-11-28T20:29:02.538769Z",
+      "dateLastUpdateAttempted": "2020-11-28T20:29:02.538769Z",
       "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
